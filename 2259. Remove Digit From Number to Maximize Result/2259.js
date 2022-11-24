@@ -4,10 +4,6 @@
  * @return {string}
  */
 
-function str(arr, len) {
-    return arr.indexOf(0)
-}
-
  var removeDigit = function(number, digit) {
 
     const strlen = number.length;
@@ -19,7 +15,7 @@ function str(arr, len) {
             positiveDigit.push(temp)
         }
     }
-    
+
     let bigDigit = positiveDigit[0]
     for (let i = 1; i < positiveDigit.length; i++) {
         if(positiveDigit[i] > bigDigit) bigDigit = positiveDigit[i];
