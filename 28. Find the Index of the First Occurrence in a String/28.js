@@ -9,9 +9,7 @@
     let returnValue = -1;
     let temp = haystack
 
-
     for (let i = 0; i < haystackLen; i++) {
-
         let slice = temp.slice(i)
         if(slice.slice(0, needleLen) === needle){
             return returnValue = i;
